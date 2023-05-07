@@ -56,10 +56,173 @@
         <section id="home">
           <h1>G-PAC <span><img style="height: 50px;width: 50px;margin-bottom: 5px;" src="https://i.ibb.co/gMZsK6d/Modern-Letter-G-Logo-removebg-preview.png" alt=""></span></h1>
           <p>Enter your grades and let us calculate your GPA for you! Only students of UFAZ can benefit from this service. You can easily benefit from our rankometer service, you can see your position among many students., you can analyze your statistics during the process of your study.</p>
+          <p>We developed 'Rankometer' to track academic performance of enrolled students <span style="font-weight: bold;color: rgb(0, 0, 0);">BSc-2021</span> . We used 19,439 cells in Excel to ensure data accuracy and comprehensiveness.</p>
         </section>
       
+        <section id="rankometer">
+          <h2>Rankometer</h2>
+          <ul id="navrank" style="text-align: center;">
+
+      
+        <li><a>Licence 1</a>
+            <ul>
+              <li><a href="">Soon</a>
+                <ul>
+                  <li><a href="rable/licence1/s1/ge21l1s1.html">GE</a>
+                    <li><a href="rable/licence1/s1/cs21l1s1.html">CS</a>
+                      <li><a href="rable/licence1/s1/ce21l1s1.html">CE</a>
+                        <li><a href="rable/licence1/s1/pe21l1s1.html">PE</a>
+                          <li><a href="rable/licence1/s1/all21l1s1.html">ALL</a>
+                </ul>
+                </li>
+                <li><a>S2</a>
+                    <ul>
+                      <li><a href="rable/licence1/s2/ge21l1s2.html">GE</a>
+                        <li><a href="rable/licence1/s2/cs21l1s2.html">CS</a>
+                          <li><a href="rable/licence1/s2/ce21l1s2.html">CE</a>
+                            <li><a href="rable/licence1/s2/pe21l1s2.html">PE</a>
+                              <li><a href="rable/licence1/s2/all21l1s2.html">ALL</a>
+                    </ul>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li><a href="">Soon</a>
+            <ul>
+              <li><a>S1</a>
+                <ul>
+                  <li><a href="licence2/s1/ge.html">GE</a>
+                    <li><a href="licence2/s1/cs.html">CS</a>
+                      <li><a href="licence2/s1/ce.html">CE</a>
+                        <li><a href="licence2/s1/pe.html">PE</a>
+                </ul>
+                </li>
+                <li><a>S2</a>
+                    <ul>
+                      <li><a href="licence2/s2/ge.html">GE</a>
+                        <li><a href="licence2/s2/cs.html">CS</a>
+                          <li><a href="licence2/s2/ce.html">CE</a>
+                            <li><a href="licence2/s2/pe.html">PE</a>
+                    </ul>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li><a href="">Soon</a>
+            <ul>
+              <li><a>S1</a>
+                <ul>
+                  <li><a href="licence3/s1/ge.html">GE</a>
+                    <li><a href="licence3/s1/cs.html">CS</a>
+                      <li><a href="licence3/s1/ce.html">CE</a>
+                        <li><a href="licence3/s1/pe.html">PE</a>
+                </ul>
+                </li>
+                <li><a>S2</a>
+                    <ul>
+                      <li><a href="licence3/s2/ge.html">GE</a>
+                        <li><a href="licence3/s2/cs.html">CS</a>
+                          <li><a href="licence3/s2/ce.html">CE</a>
+                            <li><a href="licence3/s2/pe.html">PE</a>
+                    </ul>
+                    </li>
+            </ul>
+        </li>
+
+    </ul>
+
+
+    <style>
+      #navrank {
+          list-style: none inside;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+      }
+
+      #navrank li {
+          display: block;
+          position: relative;
+          float: left;
+          margin-left: 8px;
+          text-align: center;
+          background: #434341;
+          transition: 0.5s;
+          /* menu background color */
+      }
+
+      #navrank li a {
+          display: block;
+          padding: 0;
+          text-decoration: none;
+          width: 91px;
+          /* this is the width of the menu items */
+          line-height: 35px;
+          /* this is the hieght of the menu items */
+          color: #ffffff;
+          /* list item font color */
+      }
+
+      #navrank li li a {
+          font-size: 80%;
+          position: relative;
+
+        }
+
+      /* smaller font size for sub menu items */
+
+      #navrank li:hover {
+          background: #6d0000;
+          transition: 0.8s;
+          
+      }
+
+      /* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+      #navrank ul {
+          position: absolute;
+          padding: 0;
+          left: 0;
+          display: none;
+          /* hides sublists */
+      }
+
+      #navrank li:hover ul ul {
+          display: none;
+      }
+
+      /* hides sub-sublists */
+
+      #navrank li:hover ul {
+          display: block;
+          margin-left: -8px;
+      }
+
+      /* shows sublist on hover */
+
+      #navrank li li:hover ul {
+          display: block;
+          /* shows sub-sublist on hover */
+          margin-left: -8px;
+          z-index: 1;
+          position: relative;
+          width: 95px;
+          /* this should be the same width as the parent list item */
+          margin-top: 0px;
+          /* aligns top of sub menu with top of list item */
+      }
+      
+</style>
+
+          
+ 
+
+        </section><br><br><br>
+
         <section id="finishtime">
-          <h2>UFAZ finishes in</h2><hr>
+          <h2>Exam starts in</h2><hr>
             <!DOCTYPE html>
             <head>
              <meta charset="UTF-8">
@@ -80,7 +243,7 @@
             <link rel="stylesheet" href="style.css">
             <script>
               // Set the date we're counting down to
-              var countDownDate = new Date("May 12, 2023 23:59:59").getTime();
+              var countDownDate = new Date("May 22, 2023 10:00:00").getTime();
           
               // Update the countdown every 1 second
               var x = setInterval(function() {
@@ -117,7 +280,7 @@
           </section>
           
         <section id="services">
-          <h2>Services</h2>
+          <h2>GPA Calculator</h2>
 
     <ul id="nav" style="text-align: center;">
 
@@ -144,7 +307,7 @@
         </li>
 
 
-        <li><a>Licence 2</a>
+        <li><a href="">Soon</a>
             <ul>
               <li><a>S1</a>
                 <ul>
@@ -166,7 +329,7 @@
         </li>
 
 
-        <li><a>Licence 3</a>
+        <li><a href="">Soon</a>
             <ul>
               <li><a>S1</a>
                 <ul>
