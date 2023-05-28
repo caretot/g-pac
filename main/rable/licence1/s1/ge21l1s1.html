@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rankometer</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" href="https://i.ibb.co/M5TkS8J/image-removebg-preview.png">
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="topnav" id="myTopnav" style="margin: -8px;">
+        <a href="" class="active" style="color:rgb(0, 0, 0);font-weight: bold;">Rankometer  —  GE21 L1S1 </a>
+        <a href="../../../index.html">Home</a>
+        <a href="../../../index.html">G - PAC</a>
+        <a href="https://api.whatsapp.com/send/?phone=994706475505&text=Hi+Fuad.&type=phone_number&app_absent=0">Contact</a>
+        <a href="https://api.whatsapp.com/send/?phone=994777397339&text=Hi+Cedi.&type=phone_number&app_absent=0">Contributers</a>
+        <div class="dropdown">
+          <button class="dropbtn">Other Faculty 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="all21l1s1.html">ALL21 L1S1</a>
+            <a href="ge21l1s1.html">GE21 L1S1</a>
+            <a href="cs21l1s1.html">CS21 L1S1</a>
+            <a href="ce21l1s1.html">CE21 L1S1</a>
+            <a href="pe21l1s1.html">PE21 L1S1</a>
+          </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropbtn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+    <br>
+<br>
+<div class="info">
+    <center>
+    <img src="https://i.ibb.co/1KHYfRQ/image.png" alt="text" style="width: 200px;height: 50px;">
+  
+    
+    <p><span style="font-size: 150%;">GE L1S1</span><br><span style="font-size: 80%;">BSc-2021</span></p> </center>  
+    <hr><p>The GPA values were taken from the table that education department sent as the last version, with the latest updates.</p>
+
+  </div>
+
+    <input type="text" id="myInput" onkeyup="myFunctiona()" placeholder="Search for names.." title="Type in a name">
+    <br><br>
+
+
+
+    
+    <table id="myTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>ID</th>
+            <th>Faculty</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>GE</td>
+                <td>22122255</td>
+                <td>Ildarov Fuad</td>
+                <td>16.1628</td>
+                <td>80.81%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GE</td>
+                <td>22122038</td>
+                <td>Hajimuradova Narmin</td>
+                <td>14.7001</td>
+                <td>73.50%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GE</td>
+                <td>22122028</td>
+                <td>Guliyeva Leyla</td>
+                <td>14.6263</td>
+                <td>73.13%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GE</td>
+                <td>22122025</td>
+                <td>Maharramli Anar</td>
+                <td>13.7678</td>
+                <td>68.84%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GE</td>
+                <td>22121998</td>
+                <td>Mustafayeva Zhala</td>
+                <td>13.3834</td>
+                <td>66.92%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>GE</td>
+                <td>22122276</td>
+                <td>Jafarova Gunay</td>
+                <td>13.1892</td>
+                <td>65.95%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>GE</td>
+                <td>22122006</td>
+                <td>Bandiyeva Laman</td>
+                <td>12.8338</td>
+                <td>64.17%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>GE</td>
+                <td>22122246</td>
+                <td>Sadıgova Aysel</td>
+                <td>12.5384</td>
+                <td>62.69%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>GE</td>
+                <td>22121995</td>
+                <td>Ahmadov Javidan</td>
+                <td>12.2693</td>
+                <td>61.35%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>GE</td>
+                <td>22122283</td>
+                <td>Huseynova Laman</td>
+                <td>12.0314</td>
+                <td>60.16%</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>GE</td>
+                <td>22122241</td>
+                <td>Abdulova Fidan</td>
+                <td>11.7603</td>
+                <td>58.80%</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>GE</td>
+                <td>22122016</td>
+                <td>Hasanova Samira</td>
+                <td>11.5789</td>
+                <td>57.89%</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>GE</td>
+                <td>22122249</td>
+                <td>Isayeva Nurana</td>
+                <td>11.4536</td>
+                <td>57.27%</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>GE</td>
+                <td>22122013</td>
+                <td>Mammadov Gasım</td>
+                <td>11.1464</td>
+                <td>55.73%</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>GE</td>
+                <td>22122260</td>
+                <td>Gadirov Javid</td>
+                <td>11.1233</td>
+                <td>55.62%</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>GE</td>
+                <td>22122268</td>
+                <td>Jabrayıl-zada Kamilla</td>
+                <td>11.1217</td>
+                <td>55.61%</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>GE</td>
+                <td>22122030</td>
+                <td>Gasimov Rasim</td>
+                <td>10.82</td>
+                <td>54.10%</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>GE</td>
+                <td>22122264</td>
+                <td>Gadirov Zahid</td>
+                <td>10.8034</td>
+                <td>54.02%</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>GE</td>
+                <td>22122274</td>
+                <td>Rustamov Avaz</td>
+                <td>10.5685</td>
+                <td>52.84%</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>GE</td>
+                <td>22122254</td>
+                <td>Shamshiyev Elmir</td>
+                <td>10.3763</td>
+                <td>51.88%</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>GE</td>
+                <td>22122253</td>
+                <td>Mammadov Mahammad</td>
+                <td>10.2211</td>
+                <td>51.11%</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>GE</td>
+                <td>22122017</td>
+                <td>Abbasli Madina</td>
+                <td>10.1424</td>
+                <td>50.71%</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>GE</td>
+                <td>22122022</td>
+                <td>Aliyeva Fatima</td>
+                <td>9.4596</td>
+                <td>47.30%</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>GE</td>
+                <td>22122010</td>
+                <td>Pashayeva Nargiz</td>
+                <td>9.3392</td>
+                <td>46.70%</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>GE</td>
+                <td>22121990</td>
+                <td>Maharramli Huseyn</td>
+                <td>8.8836</td>
+                <td>44.42%</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>GE</td>
+                <td>22121978</td>
+                <td>Aliyeva Narmin</td>
+                <td>8.8329</td>
+                <td>44.16%</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>GE</td>
+                <td>22022829</td>
+                <td>Gahramanlı Riad</td>
+                <td>8.7896</td>
+                <td>43.95%</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>GE</td>
+                <td>22122258</td>
+                <td>Bashiri Elvin</td>
+                <td>8.7207</td>
+                <td>43.60%</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>GE</td>
+                <td>22122000</td>
+                <td>Mammadov Salim</td>
+                <td>8.6638</td>
+                <td>43.32%</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>GE</td>
+                <td>22122278</td>
+                <td>Abbasova Aytan</td>
+                <td>8.641</td>
+                <td>43.21%</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>GE</td>
+                <td>22022908</td>
+                <td>Gahramanli Vahid</td>
+                <td>7.4123</td>
+                <td>37.06%</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>GE</td>
+                <td>22122280</td>
+                <td>Gamarli Rafig</td>
+                <td>6.7474</td>
+                <td>33.74%</td>
+            </tr>
+        </tbody>
+    </table><br><br>
+
+
+    
+    
+      <!-- footer section start -->
+       <footer id="footer" style="background-color: black">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="../../../index.html"><img src="https://i.ibb.co/PrqVKHy/image.png" alt="" style="width: 150px;height: 65px;" class="img-fluid logo-footer"></a>
+                          <div class="footer-about">
+                              <p style="color: #878787; font-size: 115%;">Welcome to our website! We offer a range of tools and resources to help you achieve your goals, including GPA calculators, study tips, career advice, and more. Our team of experts is here to support you in your personal and professional development.</p>
+                          </div>
+                          <br>
+              </div>
+              <div class="col-md-3">
+                <div class="useful-link">
+                  <h1 style="font-size: 160%;color: white;">Useful Links<h4 style="margin-top: -20px; color: #f8b739;margin-bottom: -15px;">_____</h4></h1>
+                  <div class="usse-links"><br>
+                      <li><a href="../../../index.html#home"><i></i><h1 style="font-size: 135%; color: #878787;">Home</h1></a></li>
+                      <li><a href="../../../index.html#about"><i></i><h1 style="font-size: 135%; color: #878787;">About us</h1></a></li>
+                      <li><a href="../../../index.html#services"><i></i><h1 style="font-size: 135%; color: #878787;">Services</h1></a></li>
+                      <li><a href="https://api.whatsapp.com/send/?phone=994706475505&text=Hi+Fuad.&type=phone_number&app_absent=0"><i></i><h1 style="font-size: 135%; color: #878787;">Contact</h1></a></li>
+                  </div>
+                </div>
+      
+              </div>
+              <br>
+                      <div class="col-md-3">
+                            <div class="social-links">
+                  <h1 style="font-size: 160%;color: white;">Follow us<h4 style="margin-top: -20px; color: #f8b739;margin-bottom: 35px;">_____</h4></h1>
+                  <div class="footer-social-icon">
+                      <a href="https://www.facebook.com/fuad.ildarov.3"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                      <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter twitter-bg"></i></a>
+                      <a href="https://www.instagram.com/ildarovfuad/"><i class="fab fa-instagram instagram-bg"></i></a>
+                      <a href="https://www.linkedin.com/in/fuad-ildarov-1a76b5220/"><i class="fab fa-linkedin linkedin-bg"></i></a>
+                  </div>
+                </div>
+                      <br>  
+                      <div class="row">
+                  <h1 style="font-size: 160%;color: #ffffff;">Find us<h4 style="margin-top: -20px; color: #f8b739;margin-bottom: 35px;">_____</h4></h1>
+                      <div class="col-xl-4 col-md-4 mb-30">
+                              <div class="single-cta">
+                                      <i class="fas fa-map-marker-alt" style=" color: #f8b739;display: inline-block;font-size: 100%;"></i>
+                                      <span style="font-size: 100%; color: #878787;display: inline-block;">  NIZAMI STR. 183 BAKU</span>
+                              </div>
+                          </div><br>
+                          <div class="col-xl-4 col-md-4 mb-30">
+                              <div class="single-cta">
+                                     <i class="fas fa-phone" style=" color: #f8b739;display: inline-block;font-size: 100%;"></i>
+                                      <span style="font-size: 100%; color: #878787;display: inline-block;">  +994 70 647 55 05</span>
+                              </div>
+                          </div><br>
+                          <div class="col-xl-4 col-md-4 mb-30">
+                              <div class="single-cta">
+                                     <i class="far fa-envelope-open" style=" color: #f8b739;display: inline-block;font-size: 100%;"></i>
+                                      <span style="font-size: 100%; color: #878787;display: inline-block;">  g.pac@info.com</span>
+                              </div>
+                          </div>
+                      </div>
+                        </div>
+                      
+            </div>
+          </div>
+      
+        </footer>
+        <!-- footer section end -->
+        <!-- footer copy right section start -->
+        <section id="copy-right" style="font-family: sans-serif;">
+          <div class="copy-right-sec">
+              <div class="copyright-text">
+                  <p>Copyright &copy; 2023 | G-PAC</p>
+                  <p>Designed by <a href="https://github.com/caretot?tab=repositories">Fuad Ildarov</a></p>
+              </div>
+          </div>
+        </section>
+        <!-- footer copy right section end -->
+    
+      <script>
+        function myFunctiona() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[3];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+        </script>
+       <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+
+
+
+</body>
+</html>
