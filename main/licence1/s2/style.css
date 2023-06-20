@@ -36,7 +36,7 @@ body {
     display: block;
     height: 50px;
     width: 100%;
-    max-width: 70px;
+    max-width: 120px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -50,6 +50,7 @@ body {
     outline: none;
     border-color: #008cff;
     color: black;
+
   }
   
   button[type="button"] {
@@ -77,11 +78,12 @@ body {
   }
   
   input[type="text"] {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     margin: auto;
-    padding: 2.5rem;
-    background-color: rgb(206, 206, 206);
+      background-color: rgb(206, 206, 206);
     color: black;
+    height: 100px;
+    width: 120px;
   }
   
   label {
@@ -142,7 +144,24 @@ a {
     color: #eee;
   }
 }
-
+@media only screen and (min-width: 1200px) {
+  body{
+    zoom:30%
+  }
+  footer{
+    zoom:180%;
+  }
+  .copy-right-sec{
+    zoom:340%;
+  }
+  form{
+    zoom:180%;
+  }
+  .footer-about p{
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
